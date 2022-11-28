@@ -63,6 +63,10 @@ There is no tests for this project.
 
 Sigita: [Github](https://github.com/SigitaZaromskiene)
 
+## ⚠️ License
+
+Distributed under the MIT License. See LICENSE.txt for more information.
+
 ## 🔗 Other resources
 
 https://cdn.discordapp.com/attachments/850245533838868480/850246473362178048/coming-soon-wide.png
