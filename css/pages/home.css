@@ -1,16 +1,3 @@
-body,
-body * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  vertical-align: top;
-}
-
-body {
-  font-family: "Gill Sans", "Gill Sans MT", "Gill Sans", "Gill Sans MT", Calibri,
-    sans-sarif;
-}
-
 .hero.short-row {
   display: flex;
   flex-direction: column;
@@ -32,4 +19,67 @@ body {
 .clock {
   width: 80%;
   background-color: rosybrown;
+}
+.section-title {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.section-description {
+  font-size: 16px;
+}
+
+@media (max-width: 700px) {
+  .main-title {
+    font-size: 60px;
+  }
+}
+
+footer.container {
+  padding-top: 0;
+}
+.row.socials {
+  border-bottom: 1px solid white;
+  margin-bottom: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  justify-content: center;
+  gap: 20px;
+}
+
+.socials > a {
+  width: 2.5em;
+  height: 2.5em;
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 2.5em;
+  transition: 1s all;
+}
+
+.socials > a:hover {
+  color: #1eb6f5;
+  background-color: white;
+}
+
+.container > .bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #fffa;
+}
+
+.bottom a {
+  color: #fff;
+}
+
+.bottom > .trio {
+  display: flex;
+  gap: 20px;
+}
+.bottom > .logo {
+  margin-bottom: 40px;
 }

@@ -1,3 +1,8 @@
+:root {
+  --main-color: #1EB6F5
+  --secondary-color: #E81F63;
+}
+
 body,
 body * {
   margin: 0;
@@ -10,3 +15,8 @@ body {
   font-family: "Gill Sans", "Gill Sans MT", "Gill Sans", "Gill Sans MT", Calibri,
     sans-sarif;
 }
+
+.bg-blue {
+  background-color: var(--main-color);
+}
+
