@@ -5,7 +5,7 @@
 }
 
 .bg-blue {
-  background-color: var(--main-color);
+  background-color: #1eb6f5;
 }
 .container > .row {
   display: inline-block;

@@ -1,8 +1,3 @@
-:root {
-  --main-color: #1eb6f5;
-  --secondary-color: #e81f63;
-}
-
 .hero.short-row {
   display: flex;
   flex-direction: column;
@@ -65,7 +60,7 @@ footer.container {
 }
 
 .socials > a:hover {
-  color: var(--main-color);
+  color: #1eb6f5;
   background-color: white;
 }
 
