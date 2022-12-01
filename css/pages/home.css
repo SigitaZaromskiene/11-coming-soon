@@ -16,10 +16,7 @@
 .main-description {
   font-size: 22px;
 }
-.clock {
-  width: 80%;
-  background-color: rosybrown;
-}
+
 .section-title {
   font-size: 18px;
   text-transform: uppercase;
@@ -27,12 +24,6 @@
 
 .section-description {
   font-size: 16px;
-}
-
-@media (max-width: 700px) {
-  .main-title {
-    font-size: 60px;
-  }
 }
 
 footer.container {
@@ -82,4 +73,14 @@ footer.container {
 }
 .bottom > .logo {
   margin-bottom: 40px;
+}
+
+@media (max-width: 700px) {
+  .main-title {
+    font-size: 60px;
+  }
+  .bottom > .trio {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
 }

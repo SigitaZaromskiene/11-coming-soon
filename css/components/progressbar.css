@@ -1,0 +1,30 @@
+.progress-bar-list {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.progress-bar-list > .progress-bar {
+}
+
+.progress-bar-list > .progress-bar > .top {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.progress-bar-list .top > .label {
+}
+
+.progress-bar-list .top > .value {
+}
+.progress-bar-list > .progress-bar > .progress {
+  background-color: #ccc;
+  height: 6px;
+}
+
+.progress-bar > .progress > .bar {
+  height: 100%;
+  width: 90%;
+  background-color: #1eb6f5;
+}
