@@ -10,13 +10,13 @@
   gap: 5px;
 }
 
-.progress-bar-list > .progress-bar > .progress {
+.progress-bar-list .progress {
   background-color: #ccc;
   height: 6px;
 }
 
-.progress-bar > .progress > .bar {
-  height: 100%;
+.progress-bar-list .bar {
+  height: 6px;
   width: 90%;
   background-color: #1eb6f5;
 }
