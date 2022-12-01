@@ -8,7 +8,7 @@ _website design project_
 
 This project is for educational porpuses only.
 
-Site published at: https://sigitazaromskiene.github.io/11-coming-soon/
+Site published at: https://sigitazaromskiene.github.io/13-holistic-health-page/
 
 ## 🎯 Project features/goals
 
