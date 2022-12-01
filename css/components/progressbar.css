@@ -4,20 +4,12 @@
   gap: 25px;
 }
 
-.progress-bar-list > .progress-bar {
-}
-
 .progress-bar-list > .progress-bar > .top {
   display: flex;
   justify-content: space-between;
   gap: 5px;
 }
 
-.progress-bar-list .top > .label {
-}
-
-.progress-bar-list .top > .value {
-}
 .progress-bar-list > .progress-bar > .progress {
   background-color: #ccc;
   height: 6px;
