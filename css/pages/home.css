@@ -116,4 +116,9 @@ footer.container {
     flex-direction: column;
     margin-bottom: 20px;
   }
+
+  .bottom > .trio > p::after {
+    content: "";
+    display: none;
+  }
 }

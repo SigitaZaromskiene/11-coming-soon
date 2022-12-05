@@ -4,6 +4,7 @@
   width: 100%;
   color: white;
   flex-wrap: wrap;
+  color: white;
 }
 
 .clock > .time {
@@ -25,6 +26,5 @@
 @media (max-width: 400px) {
   .clock > .time {
     width: 100%;
-    color: var(--main-color);
   }
 }
