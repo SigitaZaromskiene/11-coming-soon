@@ -38,13 +38,34 @@
 footer.container {
   padding-top: 0;
 }
-.row.socials {
+.container .row {
   border-bottom: 1px solid white;
   margin-bottom: 40px;
   padding-top: 10px;
   padding-bottom: 10px;
   justify-content: center;
   gap: 20px;
+  position: relative;
+}
+
+.back-to-top {
+  background-color: red;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  position: absolute;
+  top: -30px;
+  right: -15px;
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+  text-decoration: none;
+  line-height: 50px;
+}
+
+.back-to-top:hover {
+  box-shadow: 0 3px 8px #0005;
+  transition: 1px 1s;
 }
 
 .socials > a {
