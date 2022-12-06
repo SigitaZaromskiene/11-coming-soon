@@ -1,4 +1,13 @@
-.hero.short-row {
+.container.hero {
+  background-image: url(../../img/background.jpeg);
+  background-color: #1eb6f5;
+  background-size: cover;
+  background-position: bottom;
+  min-height: 100vh;
+  background-attachment: fixed;
+}
+
+.container.hero > .short-row {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -121,4 +130,7 @@ footer.container {
     content: "";
     display: none;
   }
+  /* .container.hero {
+    height: auto;
+  } */
 }
