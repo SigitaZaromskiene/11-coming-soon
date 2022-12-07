@@ -1,6 +1,6 @@
 :root {
-  --main-color: #1EB6F5
-  --secondary-color: #E81F63;
+  --main-color: #1eb6f5;
+  --secondary-color: #e81f63;
 }
 
 body,
@@ -16,7 +16,10 @@ body {
     sans-sarif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .bg-blue {
   background-color: var(--main-color);
 }
-
