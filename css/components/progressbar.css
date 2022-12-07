@@ -18,6 +18,7 @@
 .progress-bar-list .bar {
   height: 100%;
   --w: 90%;
+  width: var(--w);
   background-color: #1eb6f5;
   animation-name: loading;
   animation-duration: 2s;

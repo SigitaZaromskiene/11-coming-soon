@@ -154,4 +154,24 @@ footer.container {
   /* .container.hero {
     height: auto;
   } */
+
+  .container .row {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .container > .row > .left {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .container > .row > .right {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
 }
