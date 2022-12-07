@@ -58,10 +58,12 @@ form > .btn {
   border: none;
   background: none;
   margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .small-form button {
   justify-items: center;
+  margin-top: 30px;
 }
 
 .small-form > label {
