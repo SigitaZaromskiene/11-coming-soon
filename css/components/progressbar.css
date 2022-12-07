@@ -1,0 +1,52 @@
+.progress-bar-list {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.progress-bar-list > .progress-bar > .top {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.progress-bar-list .progress {
+  background-color: #ccc;
+  height: 6px;
+}
+
+.progress-bar-list .bar {
+  height: 100%;
+  --w: 90%;
+  width: var(--w);
+  background-color: #1eb6f5;
+  animation-name: loading;
+  animation-duration: 2s;
+}
+
+/* .progress-bar-list .bar-90 {
+  width: 90%;
+  animation-name: loading;
+  animation-duration: 1s;
+}
+
+.progress-bar-list .bar-80 {
+  width: 80%;
+  animation-name: loading;
+  animation-duration: 1s;
+}
+
+.progress-bar-list .bar-50 {
+  width: 50%;
+  animation-name: loading;
+  animation-duration: 1s;
+} */
+
+@keyframes loading {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: var(--w);
+  }
+}

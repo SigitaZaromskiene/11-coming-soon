@@ -1,0 +1,25 @@
+:root {
+  --main-color: #1eb6f5;
+  --secondary-color: #e81f63;
+}
+
+body,
+body * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", "Gill Sans", "Gill Sans MT", Calibri,
+    sans-sarif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.bg-blue {
+  background-color: var(--main-color);
+}
